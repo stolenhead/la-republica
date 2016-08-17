@@ -1,3 +1,4 @@
+
 /*Noticia Principal - Saris */
 
 .principal h1{
@@ -13,8 +14,83 @@
 
 .np1 {
 	background-image: url("../image/img_grid_principal.jpg");
+	height: 500px;
 }
 
 .np2{
 	background-image: url("../image/img_grid_secundario.jpg");
+	height: 240px;
+}
+
+.np3{
+	background-image: url("../image/img_grid_secundario.jpg");
+	height: 240px;
+	margin-top: 5%;
+}
+
+.mg-2{
+	margin-right: 2%;
+}
+
+
+
+.foncol{
+	background-color: #EFEFEF;
+	border-top: 2px solid red;
+}   
+.viewcol{
+	padding-top: 4%;
+}
+.coltxt{
+	width: 20%;
+	margin-left: 40%;
+	margin-top: -1%;
+	background-color: red;
+	color: white;
+}
+/* HEADER*/
+
+.font-12px {
+	font-size: 12px;
+}
+.fondo-negro {
+	background-color:#111417;
+}
+
+.fondo-gris {
+	background-color:#E4E7EA;
+}
+
+.texto-white {
+	color: #FFFFFF;
+}
+
+.temas-del-dia li, .temas-del-dia li a {
+	list-style: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+.temas-del-dia li a {
+		padding: 0% 1%;
+}
+
+/*css de banner y suscribirse*/
+/*LizRuelas*/
+.banner img {
+	width: 100%;
+}
+.bg-img-rayas {
+	background-image: url(../image/trama_square.jpg);
+  background-size: 3px;
+	height: 250px;
+	position: relative;
+}
+.bg-white {
+	background-color: white;
+	height: 180px;
+	width: 95%;
+	position: relative;
+	left: 2.5%;
+	top: 10%;
 }
