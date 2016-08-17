@@ -1,22 +1,22 @@
-.foncol{
-	background-color: #EFEFEF;
-	border-top: 2px solid red;
-}   
-.viewcol{
-	padding-top: 4%;
-}
-.coltxt{
-	width: 20%;
-	margin-left: 40%;
-	margin-top: -1%;
-	background-color: red;
-	color: white;
-}
 /* HEADER*/
 
-.font-12px {
+/* HEADER*/
+
+header {
 	font-size: 12px;
+      
 }
+.enlaces-menu ul li {
+   text-decoration: none;
+   display: inline;
+   text-align: left;font-size: 12px;
+   font-weight: bold;
+}
+      
+.enlaces-menu ul li a {
+        color: #7D7D7D;
+}
+
 .fondo-negro {
 	background-color:#111417;
 }
@@ -33,11 +33,30 @@
 	list-style: none;
 	text-decoration: none;
 	color: #000000;
+	float: left;
 }
 
 .temas-del-dia li a {
 		padding: 0% 1%;
 }
+
+
+/* Acá terminar el css del HEADER*/
+.foncol{
+	background-color: #EFEFEF;
+	border-top: 2px solid red;
+}   
+.viewcol{
+	padding-top: 4%;
+}
+.coltxt{
+	width: 20%;
+	margin-left: 40%;
+	margin-top: -1%;
+	background-color: red;
+	color: white;
+}
+
 
 /*css de banner y suscribirse*/
 /*LizRuelas*/
