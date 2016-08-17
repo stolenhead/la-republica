@@ -1,3 +1,20 @@
-{
-	
+/*Noticia Principal - Saris */
+
+.principal h1{
+	font-size: 3em;
+	text-align: center;
+	font-weight:bold;
+}
+
+.noticiaprincipal {
+	display: inline-block;
+	align-content: center;
+}
+
+.np1 {
+	background-image: url("../image/img_grid_principal.jpg");
+}
+
+.np2{
+	background-image: url("../image/img_grid_secundario.jpg");
 }
