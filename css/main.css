@@ -1,16 +1,44 @@
+/* columnistas andrea*/
 .foncol{
 	background-color: #EFEFEF;
-	border-top: 2px solid red;
+	border-top: 4px solid red;
+	padding-bottom: 10%;
 }   
 .viewcol{
 	padding-top: 4%;
+	padding-bottom: 6%;
+}
+.cajcol{
+	padding-left: 2%;
+
 }
 .coltxt{
-	width: 20%;
-	margin-left: 40%;
 	margin-top: -1%;
 	background-color: red;
 	color: white;
+		position: relative;
+		text-align: center;
+		box-sizing: border-box;
+}
+.text-center1 {
+	font-size: 63%;
+	text-align: center;
+}
+.text-center2{
+	text-align: center;
+	font-size: 78%;
+}
+.txt{
+	padding-right: 15%;
+	padding-left: 20%;
+}
+.boldcol{
+	text-decoration: none;
+	color: black;
+}
+.colimg{
+	width: 100%;
+	border: 4px solid white;
 }
 /* HEADER*/
 
