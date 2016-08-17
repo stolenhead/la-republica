@@ -1,3 +1,14 @@
-{
-	
+.foncol{
+	background-color: #EFEFEF;
+	border-top: 2px solid red;
+}   
+.viewcol{
+	padding-top: 4%;
+}
+.coltxt{
+	width: 20%;
+	margin-left: 40%;
+	margin-top: -1%;
+	background-color: red;
+	color: white;
 }
