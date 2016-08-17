@@ -1,3 +1,44 @@
+.foncol{
+	background-color: #EFEFEF;
+	border-top: 2px solid red;
+}   
+.viewcol{
+	padding-top: 4%;
+}
+.coltxt{
+	width: 20%;
+	margin-left: 40%;
+	margin-top: -1%;
+	background-color: red;
+	color: white;
+}
+/* HEADER*/
+
+.font-12px {
+	font-size: 12px;
+}
+.fondo-negro {
+	background-color:#111417;
+}
+
+.fondo-gris {
+	background-color:#E4E7EA;
+}
+
+.texto-white {
+	color: #FFFFFF;
+}
+
+.temas-del-dia li, .temas-del-dia li a {
+	list-style: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+.temas-del-dia li a {
+		padding: 0% 1%;
+}
+
 /*css de banner y suscribirse*/
 /*LizRuelas*/
 .banner img {
@@ -30,4 +71,8 @@
 	color: white;
 	background-color: #BF0127;
 	padding: 1% 14%;
+}
+/* Preguntas del día ---Janet */
+.mt-65 {
+	margin-top: 65px;
 }
