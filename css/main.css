@@ -12,3 +12,50 @@
 	background-color: red;
 	color: white;
 }
+/* HEADER*/
+
+.font-12px {
+	font-size: 12px;
+}
+.fondo-negro {
+	background-color:#111417;
+}
+
+.fondo-gris {
+	background-color:#E4E7EA;
+}
+
+.texto-white {
+	color: #FFFFFF;
+}
+
+.temas-del-dia li, .temas-del-dia li a {
+	list-style: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+.temas-del-dia li a {
+		padding: 0% 1%;
+}
+
+/*css de banner y suscribirse*/
+/*LizRuelas*/
+.banner img {
+	width: 100%;
+}
+.bg-img-rayas {
+	background-image: url(../image/trama_square.jpg);
+  background-size: 3px;
+	height: 250px;
+	position: relative;
+}
+.bg-white {
+	background-color: white;
+	height: 180px;
+	width: 95%;
+	position: relative;
+	left: 2.5%;
+	top: 10%;
+}
+
