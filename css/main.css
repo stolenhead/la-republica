@@ -83,13 +83,32 @@ header {
 }
 .bg-white .formulario {
 	position: absolute;
-	top: 40px;
+	top: 50px;
+}
+.bg-white .formulario span {
+	font-size: 24px;
 }
 .btn-suscribirse {
 	display: inline-block;
 	color: white;
 	background-color: #BF0127;
-	padding: 1% 12.5%;
+	padding: 2% 0;
+    width: 89%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.btn-suscribirse:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #D10D0D;
+
+}
+.input {
+	background-color: #EEEEEE;
+	width: 89%;
+	margin-top: 15px;
+	padding: 5px;
+	border-radius: 5px;
 }
 /* Preguntas del día ---Janet */
 .mt-65 {
