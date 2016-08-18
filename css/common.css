@@ -232,16 +232,18 @@ header .btn-buscar{
 
 footer {
   font-size: 12px;
-  color: gray; }
+  color: gray; 
+  font-family:'PT Sans'}
 footer img {
   width: 220px;
-  margin: 0 10px; }
+}
 footer h5 {
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: 800; }
 footer a {
   color: black;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 11px }
 footer .pie a {
   color: gray;
   border-right: 1px solid gray;
@@ -267,11 +269,18 @@ footer {
   background-color: #EFEFEF;
 }
 
-.e-footer {
-  display: block; }
+footer ul {
+  font-size: 12px;
+  list-style: none;
+}
 
-footer .grupo {
-  font-size: 15px;
+footer ul li a:last-child {
+  border-right: none; 
+}
+
+footer ul li a:nth-child(2) {
+  font-weight: 700;
+  font-size: .8em; 
 }
 
 .mgt-5{
