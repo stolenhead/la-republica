@@ -315,6 +315,18 @@ input {
 	padding: 5px;
 	border-radius: 5px;
 }
+/* aweita*/
+.aweita{
+	border: 2px solid #cccccc;
+	padding: 2%;
+}
+.media{
+	padding: 2%;
+}
+.pull left{
+	border: 2px solid white;
+ 	padding: 2% 0% 2% 2%;
+}
 
 /* Preguntas del día ---Janet */
 .bg-img-rayas1 {
