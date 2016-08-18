@@ -1,0 +1,292 @@
+/* HEADER*/
+
+header {
+  font-size: 12px;
+}
+
+.logo-republica{
+  padding: 4% 0%;
+}
+
+.enlaces-menu {
+  margin: 0px -50px;
+  padding: 12px 7px;
+}
+
+.enlaces-menu ul li {
+  text-decoration: none;
+  display: inline;
+  text-align: left;
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.enlaces-menu ul li a {
+  color: #7D7D7D;
+  text-decoration: none;
+}
+
+.enlaces-menu ul li a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+header .btn-suscripcion{
+  display: inline-block;
+  margin: 8px 0px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 6px;
+  font-size: 10px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #BA1414;
+  text-decoration: none;
+}
+
+.fondo-blanco {
+  background-color: #FFFFFF;
+}
+
+.fondo-negro {
+  background-color: #111417;
+}
+
+.fondo-gris {
+  background-color:#E4E7EA;
+}
+
+.texto-white {
+  color: #FFFFFF;
+}
+
+.miniatura-columna-diaria{
+  background-color: white;
+  border-top: 1px solid gray ;
+  border-left: 1px solid gray ;
+  border-right: 1px solid gray ;
+  border-bottom: 3px solid #AA1801 ;
+  height: 55px;
+  margin: 5% 0%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.miniatura-columna-diaria p {
+  padding-top: 5%;
+  font-size: 14px;
+}
+
+.titulo-miniatura {
+  color: #FFFFFF;
+  background-color: #BA1414;
+  font-size: 16px;
+  height: 19px;
+  width: 30%;
+  margin: -4% 35%;
+}
+
+.editorial-columna {
+  padding: 0% 5%;
+}
+
+.autor-columna {
+  margin: -6% 85%;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.navbar-form {
+  background-color: #E4E7EA;
+}
+
+.barra-buscar {
+  background-color: #E4E7EA;
+  width: 52%;
+  font-size: 9px;  
+  border: none;
+  margin: 4% 0%;
+}
+
+header .btn-buscar{
+  display: inline-block;
+  margin: 8px 0px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 6px;
+  font-size: 10px;
+  border-radius: 4px;
+  color: #848484;
+  background-color: #E4E7EA;
+}
+
+.seccion-editorial  {
+  margin: 5% 10%;
+}
+
+.miniatura-editorial{
+  background-color: white;
+  border: 1px solid gray;
+  height: 55px;
+  margin: -50px 24px;
+  padding: 9px 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-menu {
+  background-color: #BA1414;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+  margin: 8px -8px;
+  text-align: center;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin-left: -45px; 
+}
+
+.nav-menu li {
+  border-right: 1px solid black;
+  list-style: none;
+  text-decoration: none;
+  padding:4px 7px;
+  float: left; 
+}
+
+.nav-menu li:last-child {
+  border-right: none; 
+}
+
+.nav-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-menu li:hover {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-menu .letra-azul {
+  background-color: #113673;
+}
+
+.nav-menu .letra-azul:hover {
+  background-color: #08088A;
+}
+
+.gran-tema-dia {
+  background-color: #111417;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+}
+
+.temas-del-dia {
+  background-color:#E4E7EA;
+  text-align: center;
+}
+.temas-del-dia li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.temas-del-dia li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+  float: left;
+  padding: 0px 15px;
+}
+
+
+/* Acá termina el css del HEADER*/
+
+
+
+/* Footer ---Saris */
+
+footer {
+  font-size: 12px;
+  color: gray; }
+footer img {
+  width: 220px;
+  margin: 0 10px; }
+footer h5 {
+  font-size: 1.1em;
+  font-weight: 800; }
+footer a {
+  color: black;
+  display: inline-block; }
+footer .pie a {
+  color: gray;
+  border-right: 1px solid gray;
+  padding: 0px 5px;
+  font-size: 11px; }
+footer .pie a:last-child {
+  border-right: none; }
+footer .bg-gris:nth-child(2) {
+  font-weight: 700;
+  font-size: .8em; }
+.pdt-5{
+  padding-top: 5%;
+}
+
+footer {
+    font-size: 14px; 
+}
+
+.br {
+  border-right: 2px solid #F2F2F2; }
+
+.bg-gris{
+  background-color: #EFEFEF;
+}
+
+.e-footer {
+  display: block; }
+
+footer .grupo {
+  font-size: 15px;
+}
+
+.mgt-5{
+  margin-top: 5%;
+}
+.mgtb-10{
+  margin: 10% 0;
+}
+
+.mgtb-3{
+  margin: 3% 0;
+}
+
+.barrainferior{
+  border-top-style: ridge;
+  padding-top: 1%;
+}
+/* Footer ---Saris */

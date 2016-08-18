@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  	<meta charset="utf-8">
-	  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	  	<title>La Republica</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>La Republica</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	  	<link rel="shortcut icon" href="favicon.ico">
+  	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css"/>
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	  <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css"/>
+  	<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/icomoon.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
 	</head>
 	<body>
 		<!--Header by Milagros -->
@@ -23,23 +27,26 @@
 							<img src="image/banner_top.jpg" class="banner-1" alt="banner-publicidad">
 						</div>
 					</div>
-					<div class="col-lg-8 enlaces-menu">
-						<ul>
-							<li><a href="#">LIBERO.PE</a></li>
-							<li><a href="#">ELPOPULAR.PE</a></li>
-							<li><a href="#">FUNDACION GUSTAVO MOHME LLONA</a></li>
-						</ul>
-					</div>
-					 	<div class="col-lg-4">
-					 		<a href="warning.html" class="btn btn-danger">SUSCRIBETE AL BOLETIN</a>
+					<div class="row">
+						<div class="col-lg-8 enlaces-menu">
+							<ul>
+								<li><a href="#">LIBERO.PE</a></li>
+								<li><a href="#">ELPOPULAR.PE</a></li>
+								<li><a href="#">FUNDACION GUSTAVO MOHME LLONA</a></li>
+							</ul>
+						</div>
+					 	<div class="col-lg-5 text-right">
+					 		<a href="" class="btn-suscripcion">SUSCRÍBETE AL BOLETÍN</a>
 					 	</div>
-					 	<div class="col-lg-4">
-					 		<form class="navbar-form navbar-left" role="search">
+					 	<div class="col-lg-3">
+					 		<form class="navbar-form">
 					 			<div class="form-group">
-					 				<input type="text" class="form-control" placeholder="Search">
+						 			<input class="barra-buscar" typse="text" placeholder="BUSCAR">
+						 			<button type="submit" class="btn-buscar"><i class="fa fa-search"></i></button>
 					 			</div>
 					 		</form>
 					 	</div>
+					</div>
 					</div>
 				</div>
 			</div>
@@ -53,36 +60,35 @@
 						</div>
 					</div>
 					<div class="col-lg-5">
-						<div class="inline-block">
-							<div><img src="image/img_editorial_text.jpg" alt=""></div>
+						<div class="seccion-editorial">
+							<div><img src="image/img_editorial_text.jpg" alt="Gustavo Mohme" class="editorial-columna"></div>
 							<div class="miniatura-editorial">
 								<strong>La corrupción, los orígenes</strong><br>
 								<dfn>por: Gustavo Mohme Llona</dfn>
 							</div>
-							<div><img src="image/img_author.jpg" alt=""></div>
+							<div><img src="image/img_author.jpg" alt="" class="autor-columna"></div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="container">
-	  			<div class="row">
-	  				<div class="col-lg-16">
-		  				<ul class="nav navbar-nav nav-menu">
-						  	<li><a href="#">POLÍTICA</a></li>
-						  	<li><a href="#">ECONOMÍA</a></li>
-						  	<li><a href="#">SOCIEDAD</a></li>
-						  	<li><a href="#">ELECC. REGIONALES</a></li>
-						  	<li><a href="#">DEPORTES</a></li>
-						  	<li><a href="#">CHAMPIONS L.</a></li>
-						  	<li><a href="#">ESPECTÁCULOS</a></li>
-						  	<li><a href="#">ED. IMPRESA</a></li>
-						  	<li><a href="#">REGIONALES</a></li>
-						  	<li><a href="#">MÁS SECCIONES</a></li>
-						</ul>
-	  				</div>
-	  			</div>
-	  		</div>	
+				<nav class="nav-menu">
+					<ul class="">
+						<li><a href="#">POLÍTICA</a></li>
+						<li><a href="#">ECONOMÍA</a></li>
+						<li><a href="#">SOCIEDAD</a></li>
+						<li><a href="#">ELECC. REGIONALES</a></li>
+						<li><a href="#">DEPORTES</a></li>
+						<li class="letra-azul"><a href="#">CHAMPIONS L.</a></li>
+						<li><a href="#">ESPECTÁCULOS</a></li>
+						<li><a href="#">ED. IMPRESA</a></li>
+						<li><a href="#">REGIONALES</a></li>
+						<li><a href="#">MÁS SECCIONES</a></li>
+					</ul>
+				</nav>
+			</div>
+	
 	 		<div class="container">	
 				<div class="row ">
 					<div class="col-lg-2 fondo-negro">
@@ -106,224 +112,46 @@
 		</header>
 	<!--Acá termina el Header by Milagros -->
 	<!--Noticia Principal - Saris -->
-		<section class="container principal">
-			<h1>GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
-			<div class="noticiaprincipal">
-        <div>
-          <i class="fa fa-facebook-square"></i>
-          <i class="fa fa-twitter-square"></i>
-          <i class="fa fa-google-plus-square"></i>
-          <nav>
-		        <a href="#">Hacer 12 minutos</a>
-		        <a href="#">POLÍTICA</a>
-   				</nav>
+		<div class="container principal">
+			<div class="row">
+        <div class="text-center titulo">
+          <h1>GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
         </div>
-       </div>
-				<div class="row">
-					<div class="col-lg-16">
-						<div class="col-lg-8">
-							<div class="mg-2">
-								<div class="np1">
-									<a href="#">JNE impulsará campaña en favor de la aprobación de la Reforma Electoral</a>
-									<i class="fa fa-facebook-square"></i>
-				          <i class="fa fa-twitter-square"></i>
-				          <i class="fa fa-google-plus-square"></i>
-				          <nav>
-						        <a href="#">Hacer 12 minutos</a>
-						        <a href="#">POLÍTICA</a>
-   								</nav>
-								</div>
-							</div>
-						</div>
-					<div class="col-lg-8">
-						<div class="">
-							<div class="np2">
-								<a href="#">JNE impulsará campaña en favor de la aprobación de la Reforma Electoral</p>
-									<i class="fa fa-facebook-square"></i>
-				          <i class="fa fa-twitter-square"></i>
-				          <i class="fa fa-google-plus-square"></i>
-				          <nav>
-						        <a href="#">Hacer 12 minutos</a>
-						        <a href="#">POLÍTICA</a>
-   								</nav>
-							</div>
-						</div>
-						<div class="">
-							<div class="np3">
-								<a href="#">Martín Belaunde Lossio: Empresas vinculadas al empresario contrataron por S/. 3 000 millones</a>|
-								<a href="#">FOTOS</a>
-								<i class="fa fa-facebook-square"></i>
-			          <i class="fa fa-twitter-square"></i>
-			          <i class="fa fa-google-plus-square"></i>
-			          <nav>
-					        <a href="#">Hacer 12 minutos</a>
-					        <a href="#">POLÍTICA</a>
- 								</nav>
-							</div>
-						</div>
-					</div>
-				</div>
+      </div>
+      <div class="row">
+        <div class="text-center redes">
+          <div class="sub-redes">
+            <ul>
+            <a href="https://www.facebook.com/larepublicape"><span class="fa fa-facebook pr-1"></span></a><a href="https://twitter.com/larepublica_pe"><span class="fa fa-twitter pr-1"></span></a>
+            <a href="https://plus.google.com/+larepublica"><span class="fa fa-google-plus pr-1"></span></a>
+            <img src="image/bullet.gif" class="pr-1"/><span class="pr-1 pt-sans">Hace 12 minutos</span>
+            <img src="image/bullet.gif" class="pr-1"/><span class="pr-1 pt-sans">POLÍTICA</span><span class="fa fa-camera-retro rojo"></span>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="np1">
+          	<img src="image/img_grid_principal.jpg" class="w-100"/>
+            <div class="degradado w-100"></div>
+            <p>JNE impulsará en favor de la aprobación de la Reforma Electoral</p>
+          </div>
+        </div>
+        <div class="col-sm-8 mediano">
+          <div class="np1">
+          	<img src="image/img_grid_secundario.jpg" class="w-100"/>
+            <div class="degradado w-100"></div>
+            <p>Martín Belaunde Lossi:Empresas vinculadas al empresario contrataron por S/. 3000 millones | FOTOS</p>
+          </div>
+          <div class="np1"><img src="image/img_grid_secundario.jpg" class="w-100"/>
+            <div class="degradado w-100"></div>
+            <p>Sub 20:Perú vs. Paraguay:bicolor empató 1-1 y pasó al hexagonal final del Sudameriano | VIDEO</p>
+          </div>
+        </div>
+      </div>
+   	</div>
+<!-- termona noticias principales SARIS-->
 
-		</section>
-
-		<!-- Columnistas -->
-	    <section>
-	        <div class="container-fluid viewcol">
-	    	  <div class="container foncol">
-	    	    <div class="txt"><h3 class="  coltxt">COLUMNISTAS</h3></div>
-	    	  	<div class="row">
-	    	  	    <div class="col-lg-16 col-md-16">
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div >
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cajcol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2 "><a class="boldcol" href="#" ><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cajcol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cajcol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	   </div>
-	    	  	</div>
-	    	  	<div class="row">
-	    	  	    <div class="col-lg-16">
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-sm-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    		<div class="cajcol col-lg-2 col-md-4 col-xs-8">
-	    	  	    			<div>
-	    	  	    				 <a href="#"><img class="colimg" src="image/img-columnistas.jpg"></a>
-	    	  	    			</div>
-	    	  	    			<div class="cetacol">
-	    	  	    				<h6 class="text-center1">Mario Vargas Llosa</h6>
-	    	  	    				<p class="text-center2"><a class="boldcol" href="#"><strong>Megarrenuncia apulpinante</strong></a></p>
-	    	  	    			</div>
-	    	  	    		</div>
-	    	  	    </div>
-	    	  	</div>
-              </div>
+<!-- Columnistas -->
     <section>
         <div class="container-fluid viewcol">
     	  <div class="container foncol">
@@ -486,66 +314,169 @@
         </div> 
     </section>
 	    <!-- Columnistas ANDREA FINAL-->
-	  <!-- baner y form de suscribirse by Liz-->
-		<aside>
-			<div class="container">
-				<div class="col-lg-10">
-				</div>
-				<div class="col-lg-6">
-					<div class="banner">
-						<img src="image/banner-aside-home.jpg">
+
+   	<!-- Mercadeo SARIS-->        		
+		<!-- baner y form de suscribirse by Liz-->
+      <aside>
+        <div class="container">
+          <div class="col-lg-10">
+						<div class="row">
+	            <div class="col-lg-8">
+	              <div class="border">
+	                <h5 class="red text-center">Mercado de Pases 2015</h5>
+	                <div class="fotomercado">
+	                    <img src="image/img_especiales.jpg" class="w-100"/>
+	                  <div class="degradado w-100"></div>
+	                  <p>Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos</p>
+	                </div>
+	                <h5 class="text-center">Todo sobre<strong><a href="">Mercado de Pases 2015</a></h5></strong>
+	              </div>
+	            </div>
+	            <div class="col-lg-8">
+	              <div class="border">
+	                <h5 class="red text-center">Mercado de Pases 2015</h5>
+	                <div class="fotomercado">
+	                <img src="image/img_especiales.jpg" class="w-100"/>
+	                  <div class="degradado w-100"></div>
+	                  <p class="video">Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos | VIDEO</p>
+	                </div>
+	                <h5 class="text-center">Todo sobre<strong><a href="">Mercado de Pases 2015</a></h5></strong>
+	              </div>
+	            </div>
+	            <div class="col-lg-8">
+	              <div class="border">
+	                <h5 class="red text-center">Mercado de Pases 2015</h5>
+	                <div class="fotomercado">
+	                    <img src="image/img_especiales.jpg" class="w-100"/>
+	                  <div class="degradado w-100"></div>
+	                  <p>Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos</p>
+	                </div>
+	                <h5 class="text-center">Todo sobre<strong><a href="">Mercado de Pases 2015</a></h5></strong>
+	              </div>
+	            </div>
+	            <div class="col-lg-8">
+	              <div class="border">
+	                <h5 class="red text-center">Mercado de Pases 2015</h5>
+	                <div class="fotomercado">
+	                <img src="image/img_especiales.jpg" class="w-100"/>
+	                  <div class="degradado w-100"></div>
+	                  <p>Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos</p>
+	                </div>
+	                <h5 class="text-center">Todo sobre<strong><a href="">Mercado de Pases 2015</a></h5></strong>
+	              </div>
+	            </div>
+	          </div>
 					</div>
-					<div class="bg-img-rayas">
-						<div class="bg-white text-center">
-							<div class="img-suscribe">
-								<img src="image/img_sucribe.png">
-							</div>
-							<form class="formulario">
-								<span ><strong>Suscríbete</strong> 
-									a nuestro boletín
-								</span>
-								<input class="input" type="text" name="correo" placeholder="Correo electronico">
-								<a class="btn-suscribirse" href="">SUSCRIBIRSE</a>
-							</form>
-						</div>
-					</div>
+          <div class="col-lg-6">
+              <div class="banner">
+                  <img src="image/banner-aside-home.jpg">
+              </div>
+              <div class="bg-img-rayas">
+                  <div class="bg-white text-center">
+                      <div class="img-suscribe">
+                          <img src="image/img_sucribe.png">
+                      </div>
+                      <form class="formulario">
+                          <span ><strong>Suscríbete</strong> 
+                              a nuestro boletín
+                          </span>
+                          <input  type="text" name="correo" placeholder="Correo electronico">
+                          <a class="btn-suscribirse" href="">SUSCRIBIRSE</a>
+                      </form>
+                  </div>
+              </div>
+              <div class="aweita">
+								<div class="imgaweita"><img src="image/logo_aweita.jpg"></div>
+									<div class="media">
+									 	<div class="pull-left">
+									  	<a href="#">
+										  	<img class="media-object" src="image/img_aweita.jpg" alt="...">
+									  	</a>
+								  	</div>
+									 	<div class="media-body">
+									  <p class="media-heading">Juan Romàn Riquelme, el adiòs al "Ùltimo 10
+									    " de Argentina</p>  
+								  	</div>
+									</div>
+								</div>
+  <!--Aqui termina baner y form de suscribirse by Liz -->
+              <!-- Preguntas de hoy Janet-->
+              <aside class="bg-img-rayas1">
+                  <div class="bg-white1">
+                      <h4 class="text-center title-preg-hoy"><strong>La Pregunta de hoy</strong></h4>
+                      <p class="text-left">¿Cree usted que la premier Ana Jara debe renunciar?</p>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                          Sí
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          No
+                        </label>
+                      </div>
+                      <button class="btn btn-default" type="submit">Votar</button>
+                      <a href="#" class="text-center enlace-votar"><strong> Ver resultados</strong></a>
+                      <img class="img-barra" src="image/img_pregunta.png" alt="barra">
+                  </div>
+                  <div class="bg-white1">
+                      <h5><strong>La pregunta de ayer</strong></h5>
+                      <p>¿Cree usted que se militarizó la conmeración del fallo de la Haya en Lima?</p>
+                      <!-- Barra de Progreso -->
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                          60%
+                        </div>
+                       </div>
+                      <a class="text-center enlace-preg-pasadas" href="#"><strong>Ver preguntas pasadas</strong></a>
+                  </div>
+              </aside>
+                    <!-- Finish Preguntas de hoy Janet-->
+                </div>
+            </div>
+        </aside>
 		<!--Aqui termina baner y form de suscribirse by Liz -->
 					<!-- Preguntas de hoy Janet-->
-					<aside class="bg-img-rayas1">
-						<div class="bg-white1">
-							<h4 class="text-center">La Pregunta de hoy</h4>
-							<p class="text-left">¿Cree usted que la premier Ana Jara debe renunciar?</p>
-							<div class="radio">
-							  <label>
-							    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-							    Si
-							  </label>
-							</div>
-							<div class="radio">
-							  <label>
-							    <input type="radio" name="optionsRadios" id="" value="option2">
-							    No
-							  </label>
-							</div>
-							<input class="btn btn-default" type="submit" value="Votar">
-							<p class="text-center"><strong> Ver resultados</strong></p>
-							<img class="img-barra" src="image/img_pregunta">
-						</div>
-						<div class="bg-white1">
-							<h3>La pregunta de ayer</h3>
-							<p>¿Cree usted que se militarizó la conmeración del fallo de la Haya en Lima?</p>
-							<div class="progress">
-							  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-							    60%
-							  </div>
-							<a href="#">Ver preguntas pasadas</a>
-						</div>
-					</aside>
+					
 					<!-- Finish Preguntas de hoy Janet-->
-				</div>
-			</div>
-		</aside>
+
+	</body>
+
+	<footer>
+      <div class="footerborde bg-gris">
+        <div class="container-fluid">
+          <div class="row mgtb-3">
+            <div class="col-md-4 col-md-offset-2 br col-xs-12 pdt-5 grupo">
+              <div class="cont-footer"><a href="#page-top" class="page-scroll"> <img src="image/logo-grupo-la-republica.png" alt=""/></a>
+                <h5>Grupo La República Digital</h5>
+                <p>Jr. Camaná 320 Cercado de Lima <br> Teléfono:711-6000<br>(Central Telefónica)</p><small>Todos los derechos reservados - 2015</small>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="row">
+                <div class="col-md-3 pdl-30 hidden-xs col-sm-3 pdt-15"><a href="#" class="e-footer">Rogeer Federer</a><a href="#" class="e-footer">SBS</a><a href="#" class="e-footer">Scarlett Johansson</a><a href="#" class="e-footer">Scotiabank</a><a href="#" class="e-footer">Selena Gómez</a><a href="#" class="e-footer">Spiderman</a><a href="#" class="e-footer">Sporting Cristal</a><a href="#" class="e-footer">Sunat</a><a href="#" class="e-footer">Telefonica del Perú</a><a href="#" class="e-footer">The Walking Dead</a><a href="#" class="e-footer">Twitter</a><a href="#" class="e-footer">Universidad Cesar Vallejo</a><a href="#" class="e-footer">Universidad San Martin</a><a href="#" class="e-footer">Universitario de Deportes</a><a href="#" class="e-footer">Xbox</a><a href="#" class="e-footer">Youtube</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">BBVA</a><a href="#" class="e-footer">xbox</a><a href="#" class="e-footer">BCP</a>
+                </div>
+                <div class="col-md-3 pdl-30 hidden-xs col-sm-3 pdt-15"><a href="#" class="e-footer">Al fondo hay sitio</a><a href="#" class="e-footer">Alejandro Toledo</a><a href="#" class="e-footer">Alianza Lima</a><a href="#" class="e-footer">Alianza Lima</a><a href="#" class="e-footer">Banco de la Nacion</a><a href="#" class="e-footer">Barack Obama</a><a href="#" class="e-footer">Universidad San Martin</a><a href="#" class="e-footer">Barcelona</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">BBVA</a><a href="#" class="e-footer">Xbox</a><a href="#" class="e-footer">BCP</a><a href="#" class="e-footer">Batman</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">BBVA</a><a href="#" class="e-footer">Xbox</a><a href="#" class="e-footer">BCP</a>
+                </div>
+                <div class="col-md-3 pdl-30 hidden-xs col-sm-3 pdt-15"><a href="#" class="e-footer">One Direction</a><a href="#" class="e-footer">ONPE</a><a href="#" class="e-footer">Pablo Escobar</a><a href="#" class="e-footer">Paolo Guerrero</a><a href="#" class="e-footer">Pensión 65</a><a href="#" class="e-footer">PNP</a><a href="#" class="e-footer">Precio de dólar</a><a href="#" class="e-footer">Universidad Cesar Vallejo</a><a href="#" class="e-footer">Universidad San Martin</a><a href="#" class="e-footer">Premier League</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">BBVA</a><a href="#" class="e-footer">Xbox</a><a href="#" class="e-footer">BCP</a><a href="#" class="e-footer">Proyecto Conga</a><a href="#" class="e-footer">PUCP</a><a href="#" class="e-footer">Real Madrid</a><a href="#" class="e-footer">Redes Sociales</a><a href="#" class="e-footer">Reniec</a><a href="#" class="e-footer">Robert Pattinson</a>
+                </div>
+                <div class="col-md-3 pdl-30 hidden-xs col-sm-3 pdt-15"><a href="#" class="e-footer">Al fondo hay sitio</a><a href="#" class="e-footer">Alejandro Toledo</a><a href="#" class="e-footer">Alianza Lima</a><a href="#" class="e-footer">Alianza Lima</a><a href="#" class="e-footer">Banco de la Nacion</a><a href="#" class="e-footer">Barack Obama</a><a href="#" class="e-footer">Universidad San Martin</a><a href="#" class="e-footer">Barcelona</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">BBVA</a><a href="#" class="e-footer">Xbox</a><a href="#" class="e-footer">BCP</a><a href="#" class="e-footer">Batman</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">Bayern Múnich</a><a href="#" class="e-footer">BBVA</a><a href="#" class="e-footer">Xbox</a><a href="#" class="e-footer">BCP</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid barrainferior bg-gris">
+        <div class="row pie ">
+          <div class="col-lg-16 text-center"><span>Diarios del PAL:</span><a href="#">Clarin</a><a href="#">La Tercera</a><a href="#">El Universal Colombia</a><a href="#">El Universal Venezuela</a><a href="#">Vanguardia</a><a href="#">La Prensa</a><a href="#">El Salvador</a><a href="#">La Verdad</a><a href="#">Diario Libre</a><a href="#" >El diario de hoy</a><a href="#">El Colombiano</a>
+          </div>
+        </div>
+      </div>
+   </footer>
+
 	<script type="text/javascript" src="js/queries.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-	</body>
 </html>
