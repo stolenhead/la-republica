@@ -234,7 +234,6 @@
 	width: 100%;
 	border: 4px solid white;
 }
-
 /* HEADER*/
 .foncol{
 	background-color: #EFEFEF;
@@ -297,7 +296,7 @@
 	background-color: #D10D0D;
 
 }
-input {
+.input {
 	background-color: #EEEEEE;
 	width: 89%;
 	margin-top: 15px;
@@ -435,8 +434,9 @@ input {
 }
 /* Nuestros Blogueros ---janet*/
 
-/*RESPONSIVE TABLET*/
-@media (max-width:768px ) {
+/*RESPONSIVE TABLET Y MOVILE*/
+@media (max-width:768px )  {
 	.banner, .bg-img-rayas {
 		display: none;
 	}
+}
