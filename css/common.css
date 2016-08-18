@@ -1,0 +1,283 @@
+/* HEADER*/
+
+header {
+	font-size: 12px;
+}
+
+.logo-republica{
+	padding: 4% 0%;
+}
+
+.enlaces-menu {
+	padding: 12px 0px;
+}
+
+.enlaces-menu ul {
+	margin: auto 0;
+}
+.enlaces-menu ul li {
+	text-decoration: none;
+	display: inline;
+	text-align: left;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.enlaces-menu ul li a {
+	color: #7D7D7D;
+	text-decoration: none;
+}
+
+.enlaces-menu ul li a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+header .btn-suscripcion{
+	display: inline-block;
+	margin: 8px 45px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 2px 6px;
+	font-size: 10px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	color: #ffffff;
+	background-color: #BA1414;
+	text-decoration: none;
+}
+
+.inline-block {
+	display: inline-block;
+}
+.fondo-blanco {
+	background-color: #FFFFFF;
+}
+
+.fondo-negro {
+	background-color: #111417;
+}
+
+.fondo-gris {
+	background-color:#E4E7EA;
+}
+
+.texto-white {
+	color: #FFFFFF;
+}
+
+.font-azul {
+	color: blue;
+}
+
+.font-celeste {
+	color: #0C7ABF;
+}
+
+.font-rojo {
+	color: red;
+}
+
+.font-amarillo{
+	color: #FFBF00;
+}
+
+.font-naranja {
+	color: #FF4000;
+}
+
+.padd-redes {
+	padding: 2px 4px;
+}
+.miniatura-columna-diaria{
+	background-color: white;
+	border-top: 1px solid gray ;
+	border-left: 1px solid gray ;
+	border-right: 1px solid gray ;
+	border-bottom: 3px solid #AA1801 ;
+	height: 55px;
+	margin: 5% 0%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.miniatura-columna-diaria p {
+	padding-top: 8%;
+	font-size: 12px;
+}
+
+.titulo-miniatura {
+	color: #FFFFFF;
+	background-color: #BA1414;
+	font-size: 16px;
+	height: 19px;
+	width: 30%;
+	margin: -4% 35%;
+}
+
+.editorial-columna {
+	padding: 0% 5%;
+}
+
+.autor-columna {
+	margin: -6% 85%;
+}
+
+.form-group {
+	margin-bottom: 0px;
+}
+
+.navbar-form {
+	background-color: #E4E7EA;
+}
+
+.barra-buscar {
+	background-color: #E4E7EA;
+	width: 35%;
+	font-size: 9px;  
+	border: none;
+	margin: 4% 0%;
+}
+.iconos-redeso {
+	margin: 0px -30px;
+}
+
+header .btn-buscar{
+	display: inline-block;
+	margin: 8px 0px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 2px 6px;
+	font-size: 10px;
+	border-radius: 4px;
+	color: #848484;
+	background-color: #E4E7EA;
+}
+
+.seccion-editorial  {
+	margin: 5% 10%;
+}
+
+.miniatura-editorial{
+	background-color: white;
+	border: 1px solid gray;
+	height: 55px;
+	margin: -50px 24px;
+	padding: 9px 6px;
+	font-weight: bold;
+	text-align: center;
+}
+.miniatura-editorial a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.miniatura-editorial a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+.nav-menu {
+	background-color: #BA1414;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	height: 25px;
+	margin: 8px -8px;
+	text-align: center;
+}
+
+.nav-menu ul {
+	list-style: none;
+	margin-left: -45px; 
+}
+
+.nav-menu li {
+	border-right: 1px solid black;
+	list-style: none;
+	text-decoration: none;
+	padding:4px 7px;
+	float: left; 
+}
+
+.nav-menu li:last-child {
+	border-right: none; 
+}
+
+.nav-menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav-menu li:hover {
+	background-color: #FF0000;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav-menu .letra-azul {
+	background-color: #113673;
+}
+
+.nav-menu .letra-azul:hover {
+	background-color: #08088A;
+}
+
+.tema-del-dia {
+  background-color: #e3e3e3;
+  padding: 10px;
+  width: 72%;
+  margin: 0px auto 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tema-del-dia ul {
+    list-style: none;
+    margin-left: -45px;
+}
+
+.tema-del-dia ul li {
+    float: left;
+    list-style: disc;
+    margin-left: 29px;
+}
+
+.tema-del-dia ul li a {
+    color: black;
+    font-size: 12px;
+}
+.tema-del-dia .background-black {
+    background-color: #141414;
+    padding: 10px 10px;
+    margin: -10px;
+    margin-left: -20px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    height: inherit;
+    width: auto; 
+}
+  
+.tema-del-dia ul li:nth-last-child(9) {
+	list-style: none;
+}
+
+
+/* Acá termina el css del HEADER*/
