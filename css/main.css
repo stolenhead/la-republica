@@ -166,7 +166,6 @@ header {
 	width: 100%;
 	border: 4px solid white;
 }
-<<<<<<< HEAD
 /* HEADER*/
 .foncol{
 	background-color: #EFEFEF;
@@ -229,7 +228,7 @@ header {
 	background-color: #D10D0D;
 
 }
-input {
+.input {
 	background-color: #EEEEEE;
 	width: 89%;
 	margin-top: 15px;
@@ -263,12 +262,12 @@ input {
 }
 .img-barra{
 	width: 50%;
-=======
+}
 
 
-
-/*RESPONSIVE TABLET*/
-@media (max-width:768px ) {
+/*RESPONSIVE TABLET Y MOVILE*/
+@media (max-width:768px )  {
 	.banner, .bg-img-rayas {
 		display: none;
 	}
+}
