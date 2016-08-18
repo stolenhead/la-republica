@@ -355,7 +355,7 @@
 	display: block;
 }
 /* Fotos destacadas y especiales  Janet*/
-.fotos-destacadas, .fotos-especiales, .blogueros{
+.fotos-destacadas, .fotos-especiales, .blogueros, .carlincaturas{
 	margin: 10% 0% 3% 0%;
 	border-top: 5px solid #768696;
 	border-bottom: 1px solid #CDCDCD;
@@ -369,7 +369,7 @@
 	color: white;
 	margin: 0% auto 0% auto;
 }
-.ft-dt, .cont-ft-dt{
+.ft-dt, .cont-ft-dt, .col-3-blg{
 	padding: 0px;
 }
 .img-ft-dt{
@@ -433,6 +433,37 @@
 	padding: 0% 7% 0% 1%;
 }
 /* Nuestros Blogueros ---janet*/
+.img-nstro-blg{
+		width: 100%;
+}
+.col-md-13 a{
+	color: black;
+}
+.col-md-13 h6{
+	margin-bottom: 0px;
+}
+/* CARLINCATURA*/
+.carlincaturas{
+	border-top: 5px solid #BA1414;
+	padding-bottom: 1%;
+}
+.cdro-crlts{
+	width: 53%;
+	background-color: #BA1414;
+}
+.title-crlts{
+	margin-top: -35%;
+	color: white;
+}
+.img-crlts{
+	width: 100%;
+}
+.carlincaturas h4{
+	padding:4% 0% 0% 12%;
+}
+.carlincaturas a{
+	color: black;
+}
 
 /*RESPONSIVE TABLET Y MOVILE*/
 @media (max-width:768px )  {
