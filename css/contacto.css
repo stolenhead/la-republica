@@ -1,0 +1,13 @@
+.container-form {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+input {
+	background-color: #EEEEEE;
+	width: 89%;
+	margin-top: 15px;
+	padding: 5px;
+	border-radius: 5px;
+}

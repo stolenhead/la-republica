@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* columnistas andrea*/
 .foncol{
 	background-color: #EFEFEF;
@@ -148,11 +148,21 @@ header {
 	background-color: #D10D0D;
 
 }
-.input {
+input {
 	background-color: #EEEEEE;
 	width: 89%;
 	margin-top: 15px;
 	padding: 5px;
 	border-radius: 5px;
 }
+
 /* Preguntas del día ---Janet */
+
+
+
+/*RESPONSIVE TABLET*/
+@media (max-width:768px ) {
+	.banner, .bg-img-rayas {
+		display: none;
+	}
+}
