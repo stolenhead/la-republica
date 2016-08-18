@@ -5,15 +5,29 @@
 }
 .bg-img-rayas {
 	background-image: url(../image/trama_square.jpg);
-  background-size: 3px;
+  	background-size: 3px;
 	height: 250px;
-	position: relative;
 }
 .bg-white {
 	background-color: white;
-	height: 180px;
-	width: 95%;
-	position: relative;
-	left: 2.5%;
-	top: 10%;
+    height: 200px;
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    top: 15%;
+}
+.img-suscribe {
+	position: absolute;
+    top: -15%;
+    left: 40%;	
+}
+.bg-white .formulario {
+	position: absolute;
+	top: 40px;
+}
+.btn-suscribirse {
+	display: inline-block;
+	color: white;
+	background-color: #BF0127;
+	padding: 1% 14%;
 }
