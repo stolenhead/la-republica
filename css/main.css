@@ -238,32 +238,43 @@ input {
 }
 
 /* Preguntas del día ---Janet */
-<<<<<<< HEAD
 .bg-img-rayas1 {
 	background-image: url(../image/trama_square.jpg);
   	background-size: 3px;
-	padding: 15% 3% 10% 3%;
+	padding: 6% 3% 3% 3%;
 	margin-top: 5%;
 }
 .bg-white1 {
 	background-color: white;
     width: 100%;
-    padding: 15% 2.5% 3% 2.5%;
-    margin: 0% 0% 4% 0%;
+    padding: 2% 8% 3% 8%;
+    margin: 8% 0% 3% 0%;
     position: relative;
 }
-.radio{
-	padding: 1% 0% 0% 41%;
-}
-.btn-default{
-	background-color: red;
+.btn-votar{
 	color: white;
-	margin: 0% 0% 4% 21%;
-	padding: 2% 22% 2% 22%;
+	background-color: 
 }
+
 .img-barra{
-	width: 50%;
-=======
+	width: 20%;
+	height: 60px;
+	position: absolute;
+	margin-left: 33%;
+    margin-top: -85%;
+}
+.title-preg-hoy{
+	padding-top: 13%;
+}
+.enlace-preg-pasadas{
+	 font-size: 90%;
+	 color: black;
+	 display: block;
+}
+.enlace-votar{
+	color: black;
+	display: block;
+}
 
 
 
