@@ -555,6 +555,25 @@ article .borde-gray {
 .text-oswald{
 	font-family: 'Oswald';
 }
+.progress-bar-bgr{
+	background-color: #CDF3A6;
+}
+.progress-bar-bgr1{
+	background-color: #F0A3A3;
+}
+.progress{
+	background-image: url("../image/barprogress_bg.jpg");
+	background-repeat: repeat;
+	background-size: 31%;
+	height: 33px;
+	border-radius: 0px;
+}
+.progress-bar{
+	color: black;
+	font-size: 17px;
+	padding-top: 2%;
+	font-weight: bold;
+}
 
 /*RESPONSIVE TABLET Y MOVILE*/
 @media (max-width:768px )  {
