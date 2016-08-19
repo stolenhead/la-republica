@@ -3,7 +3,7 @@
 }
 .cajacol{
  border: 2px solid #cccccc;
- padding: 3%;
+ /*padding: 3%;*/
 }
 .cajacol1{
  padding: 0%	
@@ -112,12 +112,17 @@
 	color: #908991;
 	font-weight: bold;
 	font-family: "sans" ,sans-serif;
+	padding-left: 5%;
 }
 .top{
 	padding-top: 5%;
-	padding-bottom: 4%
+	padding-bottom: 4%;
 }
 .open{
 	font-family :"Open Sans Condensed", sans-serif;
 	font-weight: bold;
+	padding-left: 5%
+}
+.izqim{
+	padding-left: 15%;
 }
