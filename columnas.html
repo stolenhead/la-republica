@@ -14,7 +14,8 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet"/>
  <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -22,7 +23,7 @@
 <link rel="stylesheet" type="text/css" href="css/columnas.css">
   </head>
 	<body>
-	    <header>
+		<header>
 			<div class="fondo-gris">
 				<div class="container">		
 					<div class="row">
@@ -31,31 +32,34 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-8 enlaces-menu">
-							<ul>
-								<li><a href="#">LIBERO.PE</a></li>
-								<li><a href="#">ELPOPULAR.PE</a></li>
-								<li><a href="#">FUNDACION GUSTAVO MOHME LLONA</a></li>
-							</ul>
+						<div class="col-lg-8">
+							<nav class="enlaces-menu">
+								<a href="#">LIBERO.PE</a>
+								<a href="#">ELPOPULAR.PE</a>
+								<a href="#">FUNDACION GUSTAVO MOHME LLONA</a>
+								</ul>
+							</nav>
 						</div>
-					 	<div class="col-lg-5 text-right">
+					 	<div class="col-lg-8 text-right">
 					 		<a href="" class="btn-suscripcion">SUSCRÍBETE AL BOLETÍN</a>
+					 		<div class="inline-block iconos-redeso">
+						 		<a href="https://www.facebook.com/larepublicape/" ><i class="fa fa-facebook-f font-azul padd-redes"></i></a>
+								<a href="https://twitter.com/larepublica_pe?lang=es"><i class="fa fa-twitter font-celeste padd-redes"></i></a>
+								<a href="https://plus.google.com/+larepublica"><i class="fa fa-google-plus font-rojo padd-redes"></i></a>
+								<a href="https://mail.google.com/mail/u/1/"><i class="fa fa-envelope font-amarillo padd-redes"></i></a>
+								<a href=""><i class="fa fa-rss font-naranja padd-redes"></i></a>
+							</div>
+				 			<div class="form-group navbar-form inline-block">
+						 		<input class="barra-buscar" typse="text" placeholder="BUSCAR">
+						 		<button type="submit" class="btn-buscar"><i class="fa fa-search fa fa-rotate-90"></i></button>
+					 		</div>
 					 	</div>
-					 	<div class="col-lg-3">
-					 		<form class="navbar-form">
-					 			<div class="form-group">
-						 			<input class="barra-buscar" typse="text" placeholder="BUSCAR">
-						 			<button type="submit" class="btn-buscar"><i class="fa fa-search"></i></button>
-					 			</div>
-					 		</form>
-					 	</div>
-					</div>
 					</div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6"><img src="image/logo-la-republica.jpg" class="logo-republica" alt="diario la republica"></div>
+					<div class="col-lg-6"><a href="home.html"><img src="image/logo-la-republica.jpg" class="logo-republica" alt="diario la republica"></a></div>
 					<div class="col-lg-5">
 						<div class="miniatura-columna-diaria">
 							<div class="titulo-miniatura">DOMINGO</div>
@@ -64,23 +68,22 @@
 					</div>
 					<div class="col-lg-5">
 						<div class="seccion-editorial">
-							<div><img src="image/img_editorial_text.jpg" alt="Gustavo Mohme" class="editorial-columna"></div>
+							<img src="image/img_editorial_text.jpg" alt="Gustavo Mohme" class="editorial-columna">
 							<div class="miniatura-editorial">
-								<strong>La corrupción, los orígenes</strong><br>
-								<dfn>por: Gustavo Mohme Llona</dfn>
+								<strong><a href="">La corrupción, los orígenes</a></strong><br>
+								<dfn>por: <a href="">Gustavo Mohme Llona</a></dfn>
 							</div>
-							<div><img src="image/img_author.jpg" alt="" class="autor-columna"></div>
-							</div>
+							<img src="image/img_author.jpg" alt="" class="autor-columna">			
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="container">
-				<nav class="nav-menu">
-					<ul class="">
-						<li><a href="#">POLÍTICA</a></li>
-						<li><a href="#">ECONOMÍA</a></li>
-						<li><a href="#">SOCIEDAD</a></li>
+				<nav class="nav-menu hidden-xs">
+					<ul>
+						<li><a href="blog.html">POLÍTICA</a></li>
+						<li><a href="columnas.html">ECONOMÍA</a></li>
+						<li><a href="contacto.html">SOCIEDAD</a></li>
 						<li><a href="#">ELECC. REGIONALES</a></li>
 						<li><a href="#">DEPORTES</a></li>
 						<li class="letra-azul"><a href="#">CHAMPIONS L.</a></li>
@@ -91,28 +94,37 @@
 					</ul>
 				</nav>
 			</div>
-	
-	 		<div class="container">	
-				<div class="row ">
-					<div class="col-lg-2 fondo-negro">
-						<p class="texto-white text-center"><b>TEMAS DEL DÍA</b></p>
-					</div>
-					<div class="col-lg-14 fondo-gris">
-						<ul class="temas-del-dia text-center">
-							<li><a href="">Globos de oro</a></li>
-							<li><a href="">Youtube</a></li>
-							<li><a href="">PNP</a></li>
-							<li><a href="">Charlie Hebdo</a></li>
-							<li><a href="">Globos de oro2</a></li>
-							<li><a href="">Youtube2</a></li>
-							<li><a href="">PNP2</a></li>
-							<li><a href="">Charlie Hebdo2</a></li>
-						</ul>
-					</div>	 
+			<div class="container">
+				<div class="row">
+					<nav class="tema-del-dia">
+						<div class="col-lg-2 col-md-4 col-xs-8">
+							<div class="solo-tema">
+								<p>TEMAS DEL DÍA</p>
+							</div>
+						</div>
+						<div class="col-lg-14 col-md-12 col-xs-8">
+							<div class="los-temas">
+								<ul>
+									<li><a href="#">Globos de oro</a></li>
+									<li><a href="#">Youtube</a></li>
+									<li class="hidden-md hidden-sm hidden-xs"><a href="#">PNP</a></li>
+									<li class="hidden-md hidden-sm hidden-xs"><a href="#">Charlie Hebdo</a></li>
+									<li class="hidden-md hidden-sm hidden-xs"><a href="#">Globos de oro2</a></li>
+									<li class="hidden-md hidden-sm hidden-xs"><a href="#">Youtube2</a></li>
+									<li class="hidden-md hidden-sm hidden-xs"><a href="#">PNP2</a></li>
+									<li class="hidden-md hidden-sm hidden-xs"><a href="#">Charlie Hebdo2</a></li>
+									<li class="hidden-md hidden-sm hidden-xs"><a href="#"> </a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
 				</div>
-				<div class="row"><img src="image/banner-header.jpg" alt="banner-publicidad"></div>
-			</div>			
+			</div>	
+			<div class="container hidden-xs">
+				<div class="row"><img src="image/banner-header.jpg" class="banner-2" alt="banner-publicidad"></div>	
+			</div>
 		</header>
+	<!--Acá termina el Header by Milagros -->
 		<section>
 	        <div class="container-fluid viewcol3">
 	    	  <div class="container top ">
