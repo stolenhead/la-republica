@@ -258,12 +258,15 @@ footer .bg-gris:nth-child(2) {
   padding-top: 5%;
 }
 
+.pdt-10{
+  padding-top: 10%;
+}
 footer {
     font-size: 14px; 
 }
 
 .br {
-  border-right: 2px solid #F2F2F2; }
+  border-right: 2px solid white; }
 
 .bg-gris{
   background-color: #EFEFEF;
@@ -298,4 +301,9 @@ footer ul li a:nth-child(2) {
   border-top-style: ridge;
   padding-top: 1%;
 }
-/* Footer ---Saris */
+.footertym{
+  color: white;
+  background-color: black;
+  padding: 2%;
+  text-align: center;
+}

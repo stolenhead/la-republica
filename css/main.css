@@ -371,8 +371,9 @@ input {
 	display: block;
 }
 
+
 /*RESPONSIVE TABLET*/
 @media (max-width:768px ) {
-	.banner, .bg-img-rayas {
+	.bannerderecho {
 		display: none;
 	}
