@@ -1,4 +1,62 @@
-<<<<<<< HEAD
+
+* {
+	font-family: 'PT Sans';
+}
+
+article h4 {
+	font-family: 'Oswald';
+	color: #97979E;
+	margin-bottom: 6%;
+}
+article h4 img {
+	height: 13px;
+  margin-top: -5px;
+}
+article .time {
+	color: #97979E;
+	font-size: 12px;
+  font-family: 'PT Sans';
+}
+.img-emma {
+	width: 100%;
+}
+.subtitulo {
+	font-family: 'PT Sans';
+	color: black;
+  font-size: 19px;
+  display: block;
+  font-weight: bold;
+}
+.descripcion-emma {
+	color: black;
+	font-size: 14px;
+}
+article .sub-redes ul {
+	padding: 0;
+}
+article .sub-redes ul li {
+	display: inline;
+}
+.redes .sub-redes ul .coment   {
+	background:white;
+	color: gray;
+	padding: 0;
+}
+.redes .sub-redes ul .coment:first-child {
+	box-shadow: 0px 3px 0px 0px white;
+	padding: 0; 
+}
+.pr-2 {
+	margin-top: -6px;
+}
+article .borde-gray {
+	border-bottom: 2px solid #D9D9D9;
+	padding: 30px 0 ;
+}
+.ultimas-noticias {
+	padding-right: 20px;
+	padding-top: 20px;
+}
 /*empieza noticia principal by Saris*/ 
 .titulo h1 {
   font-size: 6rem;
