@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	font-family: 'PT Sans';
 }
@@ -54,6 +55,9 @@ article .borde-gray {
 .noticia {
 	margin: 30px 0;
 }
+=======
+<<<<<<< HEAD
+>>>>>>> f685b1f803626f0c558723b6bc9ca45dd2a9d52c
 /*empieza noticia principal by Saris*/ 
 .titulo h1 {
   font-size: 6rem;
@@ -248,6 +252,8 @@ article .borde-gray {
 
 /*termina noticia principal by Saris*/
 
+=======
+>>>>>>> header
 /* columnistas andrea*/
 .foncol{
 	background-color: #EFEFEF;
@@ -290,7 +296,11 @@ article .borde-gray {
 	width: 100%;
 	border: 4px solid white;
 }
+<<<<<<< HEAD
 /* HEADER*/
+=======
+
+>>>>>>> header
 .foncol{
 	background-color: #EFEFEF;
 	border-top: 2px solid red;
@@ -375,16 +385,16 @@ article .borde-gray {
 /* Preguntas del día ---Janet */
 .bg-img-rayas1 {
 	background-image: url(../image/trama_square.jpg);
-  	background-size: 3px;
+  background-size: 3px;
 	padding: 6% 3% 3% 3%;
 	margin-top: 5%;
 }
 .bg-white1 {
 	background-color: white;
-    width: 100%;
-    padding: 2% 8% 3% 8%;
-    margin: 8% 0% 3% 0%;
-    position: relative;
+  width: 100%;
+  padding: 2% 8% 3% 8%;
+  margin: 8% 0% 3% 0%;
+  position: relative;
 }
 .btn-votar{
 	color: white;
@@ -396,7 +406,7 @@ article .borde-gray {
 	height: 60px;
 	position: absolute;
 	margin-left: 33%;
-    margin-top: -85%;
+  margin-top: -85%;
 }
 .title-preg-hoy{
 	padding-top: 13%;
@@ -409,6 +419,125 @@ article .borde-gray {
 .enlace-votar{
 	color: black;
 	display: block;
+}
+/* Fotos destacadas y especiales  Janet*/
+.fotos-destacadas, .fotos-especiales, .blogueros, .carlincaturas, .edicion-empresa, .infografias{
+	margin: 10% 0% 3% 0%;
+	border-top: 5px solid #768696;
+	border-bottom: 1px solid #CDCDCD;
+	padding: 15% 0% 6% 0%;
+	position: relative;
+}
+.cdro-ft-dt{
+	width: 50%;
+	height: 30px;
+	background-color: #768696;
+	color: white;
+	margin: 0% auto 0% auto;
+}
+.ft-dt, .cont-ft-dt, .col-3-blg {
+	padding: 0px;
+}
+.img-ft-dt{
+	width: 100%;
+	border: 2px solid #768696;
+}
+.img-fotodes{
+	margin-top: 10%;
+}
+.text-ft-dt{
+	padding-top: 3%;
+	font-family: 'Montserrat';
+	font-size: 120%;
+	color: black;
+	display: block;
+}
+.row-ft-dt{
+	margin: 7% 0% 3% 0%;
+}
+.backg-especiales{
+	background-image: url(../image/img_especiales_aside.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 194px;
+	margin: 6% 0% 0% 0%;
+	padding-top: 46%;
+}
+.text-rlj{
+	width: 90%;
+	height: 28px;
+	background-color: white;
+	opacity: 0.8;
+	margin: 0% auto 0% auto;
+	color: black;
+	padding-top: 1%;
+  font-weight: bold;
+}
+.cdro-ns-bg{
+	width: 55%;
+}
+.title-ft-dt{
+	margin-top: -36%;
+	font-weight: bold;
+	padding-top: 4%;
+}
+.title-nt-bg{
+	margin-top: -33%;
+}
+.col-9-ft-dt, .col-8-ed-emp{
+	padding-right: 0px;
+}
+.text-ft-dt-lista{
+	font-size: 98%;
+	color: black;
+}
+.back-epx{
+	padding-top: 42%;
+}
+.text-epx{
+	height: 41px;
+	padding: 0% 7% 0% 1%;
+}
+/* Nuestros Blogueros ---janet*/
+.img-nstro-blg, .img-impreso{
+		width: 100%;
+}
+.col-md-13 a{
+	color: black;
+}
+.col-md-13 h6{
+	margin-bottom: 0px;
+}
+/* CARLINCATURA*/
+.carlincaturas, .edicion-empresa{
+	border-top: 5px solid #BA1414;
+	padding-bottom: 1%;
+}
+.edicion-empresa{
+	width: 95%;
+	margin: 15% auto 0% auto;
+	padding-bottom: 4%;
+}
+.cdro-crlts{
+	width: 53%;
+	background-color: #BA1414;
+}
+.title-crlts{
+	margin-top: -35%;
+	color: white;
+}
+.img-crlts{
+	width: 100%;
+}
+.carlincaturas h4{
+	padding:4% 0% 0% 12%;
+}
+.carlincaturas a , .col-8-ed-emp a{
+	color: black;
+}
+/*edicion empresa*/
+.col-8-ed-emp{
+	padding: 23% 0% 0% 5%;
 }
 
 /*RESPONSIVE TABLET Y MOVILE*/
