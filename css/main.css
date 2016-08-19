@@ -341,13 +341,12 @@
 	color: white;
 	background-color: 
 }
-
 .img-barra{
 	width: 20%;
 	height: 60px;
 	position: absolute;
 	margin-left: 33%;
-  margin-top: -85%;
+  margin-top: -93%;
 }
 .title-preg-hoy{
 	padding-top: 13%;
@@ -371,7 +370,7 @@
 }
 .cdro-ft-dt{
 	width: 50%;
-	height: 30px;
+	height: 37px;
 	background-color: #768696;
 	color: white;
 	margin: 0% auto 0% auto;
@@ -440,7 +439,7 @@
 	padding: 0% 7% 0% 1%;
 }
 /* Nuestros Blogueros ---janet*/
-.img-nstro-blg, .img-impreso{
+.img-nstro-blg, .img-impreso, .img-crlts, .img-reporteros{
 		width: 100%;
 }
 .col-md-13 a{
@@ -467,9 +466,6 @@
 	margin-top: -35%;
 	color: white;
 }
-.img-crlts{
-	width: 100%;
-}
 .carlincaturas h4{
 	padding:4% 0% 0% 12%;
 }
@@ -479,6 +475,19 @@
 /*edicion empresa*/
 .col-8-ed-emp{
 	padding: 23% 0% 0% 5%;
+}
+.img-camara{
+	margin-top: -143%;
+}
+.btn-env-foto{
+		margin: 5% 0% 4% 22%;
+		padding: 2% 14% 2% 14%;
+		background-color: #BA1414;
+		color: white;  
+}
+/*Tipografia*/
+.text-oswald{
+	font-family: 'Oswald';
 }
 
 /*RESPONSIVE TABLET Y MOVILE*/
