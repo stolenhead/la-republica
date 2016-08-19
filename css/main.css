@@ -355,7 +355,7 @@
 	display: block;
 }
 /* Fotos destacadas y especiales  Janet*/
-.fotos-destacadas, .fotos-especiales, .blogueros, .carlincaturas{
+.fotos-destacadas, .fotos-especiales, .blogueros, .carlincaturas, .edicion-empresa, .infografias{
 	margin: 10% 0% 3% 0%;
 	border-top: 5px solid #768696;
 	border-bottom: 1px solid #CDCDCD;
@@ -369,7 +369,7 @@
 	color: white;
 	margin: 0% auto 0% auto;
 }
-.ft-dt, .cont-ft-dt, .col-3-blg{
+.ft-dt, .cont-ft-dt, .col-3-blg {
 	padding: 0px;
 }
 .img-ft-dt{
@@ -418,7 +418,7 @@
 .title-nt-bg{
 	margin-top: -33%;
 }
-.col-9-ft-dt{
+.col-9-ft-dt, .col-8-ed-emp{
 	padding-right: 0px;
 }
 .text-ft-dt-lista{
@@ -433,7 +433,7 @@
 	padding: 0% 7% 0% 1%;
 }
 /* Nuestros Blogueros ---janet*/
-.img-nstro-blg{
+.img-nstro-blg, .img-impreso{
 		width: 100%;
 }
 .col-md-13 a{
@@ -443,9 +443,14 @@
 	margin-bottom: 0px;
 }
 /* CARLINCATURA*/
-.carlincaturas{
+.carlincaturas, .edicion-empresa{
 	border-top: 5px solid #BA1414;
 	padding-bottom: 1%;
+}
+.edicion-empresa{
+	width: 95%;
+	margin: 15% auto 0% auto;
+	padding-bottom: 4%;
 }
 .cdro-crlts{
 	width: 53%;
@@ -461,8 +466,12 @@
 .carlincaturas h4{
 	padding:4% 0% 0% 12%;
 }
-.carlincaturas a{
+.carlincaturas a , .col-8-ed-emp a{
 	color: black;
+}
+/*edicion empresa*/
+.col-8-ed-emp{
+	padding: 23% 0% 0% 5%;
 }
 
 /*RESPONSIVE TABLET Y MOVILE*/
