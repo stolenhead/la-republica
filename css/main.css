@@ -193,8 +193,6 @@
 
 /*termina noticia principal by Saris*/
 
-=======
->>>>>>> header
 /* columnistas andrea*/
 .foncol{
 	background-color: #EFEFEF;
@@ -237,11 +235,8 @@
 	width: 100%;
 	border: 4px solid white;
 }
-<<<<<<< HEAD
 /* HEADER*/
-=======
 
->>>>>>> header
 .foncol{
 	background-color: #EFEFEF;
 	border-top: 2px solid red;
@@ -333,13 +328,14 @@
 .bg-white1 {
 	background-color: white;
   width: 100%;
-  padding: 2% 8% 3% 8%;
+  padding: 2% 8% 3% 6%;
   margin: 8% 0% 3% 0%;
   position: relative;
 }
 .btn-votar{
 	color: white;
-	background-color: 
+	background-color:
+	padding: 2% 23% 2% 23%; 
 }
 .img-barra{
 	width: 20%;
@@ -359,6 +355,9 @@
 .enlace-votar{
 	color: black;
 	display: block;
+}
+.rd-si-no{
+	margin-left: 42%;
 }
 /* Fotos destacadas y especiales  Janet*/
 .fotos-destacadas, .fotos-especiales, .blogueros, .carlincaturas, .edicion-empresa, .infografias{
